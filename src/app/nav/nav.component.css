@@ -1,0 +1,15 @@
+ul li{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.name {
+
+}
+
+.links {
+    float: right;
+    margin-right: 30px;
+    cursor: pointer;
+
+}
