@@ -1,18 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 ul li{
     text-decoration: none;
     display: inline-block;
 }
 
 .nav-container {
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     position: fixed;
     top: 0;
+    z-index: 10;
 }
 
 .links {
-    margin: 20px 140px 0 0;
+    margin: 20px 10vw 0 0;
     cursor: pointer;
     color: #f9f9f9;
     font-size: 20px;

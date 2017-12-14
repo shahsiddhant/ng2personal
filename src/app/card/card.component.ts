@@ -8,15 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class CardComponent implements OnInit {
   public works = [{
     "title": "Testing 01",
-    "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit."]
+    "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit."],
+    'source': '/assets/acid2.png'
   },
   {
     "title": "Testing 02",
-    "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing eli123"]
+    "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing eli123"],
+    'source': '/assets/website.jpg'
   },
   {
     "title": "Testing 03",
-    "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing el5345."]
+    "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing el5345."],
+    'source': '/assets/knight.png'
   }]
   constructor() { }
 
