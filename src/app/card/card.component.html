@@ -1,9 +1,8 @@
 <div class="container" *ngFor="let work of works">
   <img src="{{work.source}}">
   <div class="content">
-    <h2>{{work.title}}</h2>
-
+    <span class="title">{{work.title}}</span>
       <p *ngFor="let element of work.description">{{element}}</p>
-
+      <button [routerLink]="[work.id]" class="view-details-button">View Case Study</button>
   </div>
 </div>

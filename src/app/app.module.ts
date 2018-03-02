@@ -9,13 +9,15 @@ import { WorkComponent } from './work/work.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { ViewDetailsComponent } from './view-details/view-details.component';
 
 
 const appRoutes: Routes = [
   { path: 'work', component: WorkComponent },
+  { path: 'work/:id', component: ViewDetailsComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
-  { path: '', redirectTo: '/about', pathMatch: 'full' }
+  { path: '', redirectTo: '/work', pathMatch: 'full' }
 ];
 
 @NgModule({
@@ -26,7 +28,8 @@ const appRoutes: Routes = [
     WorkComponent,
     AboutComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    ViewDetailsComponent
   ],
   imports: [
     BrowserModule,

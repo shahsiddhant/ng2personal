@@ -7,19 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
   public works = [{
-    "title": "Testing 01",
-    "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit."],
-    'source': '/assets/acid2.png'
+    'id': 'acid',
+    'title': 'acid.',
+    'description': ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.'],
+    'source': 'https://s3.us-east-2.amazonaws.com/siddhant-design/acid2.png'
   },
   {
-    "title": "Testing 02",
-    "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing eli123"],
-    'source': '/assets/website.jpg'
+    'id': 'Thesis',
+    'title': 'Animation Thesis',
+    'description': ['Lorem ipsum dolor sit amet, consectetur adipiscing eli123'],
+    'source': 'https://s3.us-east-2.amazonaws.com/siddhant-design/website.jpg'
   },
   {
-    "title": "Testing 03",
-    "description": ["Lorem ipsum dolor sit amet, consectetur adipiscing el5345."],
-    'source': '/assets/knight.png'
+    'id': 'CottageCourage',
+    'title': 'Cottage Courage',
+    'description': ['Lorem ipsum dolor sit amet, consectetur adipiscing el5345.'],
+    'source': 'https://s3.us-east-2.amazonaws.com/siddhant-design/knight.png'
   }]
   constructor() { }
 
