@@ -5,7 +5,7 @@
 
 .container {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   margin: 0 auto;
   background-color: #88D1D4;
   text-align: center;
@@ -13,7 +13,7 @@
 
 .content {
   text-align: left;
-  top: 10%;
+  top: 30%;
   position: absolute;
   margin: 0;
   color: #f9f9f9;
@@ -33,8 +33,8 @@
 
 @media only screen and (max-width: 425px) {
   /* Styles */
-  .content {
-    top: 30%;
+  .container {
+    width: 96vw;
   }
   .content h2 {
     font-size: 50px;
