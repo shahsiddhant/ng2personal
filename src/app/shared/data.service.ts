@@ -25,14 +25,14 @@ export class DataService {
     'title': 'acid.',
     'description': ['an online web zine that takes a look at art, design and culture.',
       'We talk to contemporary artists about process, motivations and inspirations.'],
-    'source': 'https://s3.us-east-2.amazonaws.com/siddhant-design/acid2.png'
+    'source': 'http://dy4fa9k8pyff8.cloudfront.net/acid2.png'
   });
 
   public thesis = new WorksModel({
     'id': 'Thesis',
     'title': 'Thesis',
     'description': ['A day running chores with the work from home dad and his son'],
-    'source': 'https://s3.us-east-2.amazonaws.com/siddhant-design/website.jpg'
+    'source': 'http://dy4fa9k8pyff8.cloudfront.net/website.jpg'
   });
 
   public cottageCourage = new WorksModel({
@@ -40,7 +40,7 @@ export class DataService {
     'title': 'Cottage Courage',
     'description': ['6 animated short commercials created for Friendship Dairies for Partners+Napier.',
       'This was created for the brand\'s #CottageCourage campaign'],
-    'source': 'https://s3.us-east-2.amazonaws.com/siddhant-design/knight.png'
+    'source': 'http://dy4fa9k8pyff8.cloudfront.net/knight.png'
   });
 
 
